@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"log"
 	"net/http"
 )
 
@@ -40,19 +39,4 @@ func APIKey(ctx context.Context, addr string) (string, error) {
 	}
 
 	return lr.APIKey, nil
-}
-
-func (c *Conn) link(ctx context.Context) error {
-	if c.apiKey != "" {
-		return nil
-	}
-
-	apiKey, err := APIKey(ctx, c.host)
-	if err != nil {
-		return err
-	}
-
-	c.apiKey = apiKey
-	log.Printf("New API key: %q", c.apiKey)
-	return nil
 }

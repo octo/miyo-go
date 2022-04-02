@@ -24,7 +24,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	conn, err := miyo.Connect(ctx, *address, miyo.WithAPIKey(*apiKey))
+	conn, err := miyo.Connect(ctx, *address, *apiKey)
 	if err != nil {
 		log.Fatal(err)
 	}
