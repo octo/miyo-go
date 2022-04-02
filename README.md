@@ -45,9 +45,9 @@ At the moment, the package supports the following API calls:
 
     Queries a list of devices (valves and moisture sensors) from the MIYO gateway.
 
-*   `CircuitAll()`
+*   `Areas()`
 
-    Queries a list of "circuits" (irrigation areas) from the MIYO gateway.
+    Queries detailed information of all irrigation areas (aka. "circuits") from the MIYO gateway.
 
 ## Author
 

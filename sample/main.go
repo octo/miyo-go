@@ -31,7 +31,7 @@ func main() {
 
 	fmt.Println("# Circuits")
 	fmt.Println()
-	cc, err := conn.CircuitAll(ctx)
+	cc, err := conn.Areas(ctx)
 	if err != nil {
 		log.Fatal(err)
 	}

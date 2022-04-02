@@ -148,8 +148,9 @@ func (s SoilType) String() string {
 	return fmt.Sprintf("SoilType#%d", s)
 }
 
-// CircuitAll returns status information for all devices.
-func (c *Conn) CircuitAll(ctx context.Context) ([]Circuit, error) {
+// Areas returns status information for all irrigation areas,
+// called "circuits" by the MIYO Cube's API.
+func (c *Conn) Areas(ctx context.Context) ([]Circuit, error) {
 	url := "http://" + c.host + "/api/circuit/all?apiKey=" + c.apiKey
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
