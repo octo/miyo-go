@@ -41,7 +41,7 @@ At the moment, the package supports the following API calls:
 
     Requests a new API key. Requires pushing the physical button on the MIYO gateway before calling this method.
 
-*   `DeviceAll()`
+*   `Devices()`
 
     Queries a list of devices (valves and moisture sensors) from the MIYO gateway.
 

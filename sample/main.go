@@ -42,7 +42,7 @@ func main() {
 
 	fmt.Println("# Devices")
 	fmt.Println()
-	devs, err := conn.DeviceAll(ctx)
+	devs, err := conn.Devices(ctx)
 	if err != nil {
 		log.Fatal(err)
 	}

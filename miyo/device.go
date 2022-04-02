@@ -45,8 +45,8 @@ func (d Device) Status() string {
 	}
 }
 
-// DeviceAll returns status information for all devices.
-func (c *Conn) DeviceAll(ctx context.Context) ([]Device, error) {
+// Devices returns status information for all devices.
+func (c *Conn) Devices(ctx context.Context) ([]Device, error) {
 	url := "http://" + c.host + "/api/device/all?apiKey=" + c.apiKey
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
