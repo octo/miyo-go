@@ -1,0 +1,352 @@
+{
+   "status" : "success",
+   "id" : 0,
+   "params" : {
+      "devices" : {
+         "{f223afe9-f8b9-46ae-8dcc-a868e96f2d2b};1" : {
+            "ipv6" : "fe80::211:7d00:30:9d58%zmd0",
+            "stateTypes" : {
+               "1" : {
+                  "type" : "valveStatus",
+                  "value" : false
+               },
+               "2" : {
+                  "type" : "openValve",
+                  "value" : false
+               },
+               "8" : {
+                  "type" : "solarVoltage",
+                  "value" : 0
+               },
+               "0" : {
+                  "value" : true,
+                  "type" : "valveInitialClose"
+               },
+               "9" : {
+                  "type" : "sunWithinWeek",
+                  "value" : true
+               },
+               "7" : {
+                  "type" : "reachable",
+                  "value" : false
+               },
+               "14" : {
+                  "value" : 0,
+                  "type" : "chargingDurationDay"
+               },
+               "13" : {
+                  "value" : false,
+                  "type" : "winterMode"
+               },
+               "5" : {
+                  "value" : 0,
+                  "type" : "lastIrrigationDuration"
+               },
+               "17" : {
+                  "value" : 0,
+                  "type" : "lastResetTime"
+               },
+               "6" : {
+                  "type" : "rssi",
+                  "value" : -200
+               },
+               "4" : {
+                  "type" : "lastIrrigationEnd",
+                  "value" : 0
+               },
+               "18" : {
+                  "value" : -1,
+                  "type" : "lastResetType"
+               },
+               "12" : {
+                  "value" : "",
+                  "type" : "otauStatus"
+               },
+               "15" : {
+                  "type" : "charging",
+                  "value" : false
+               },
+               "16" : {
+                  "value" : true,
+                  "type" : "chargingLess"
+               },
+               "11" : {
+                  "value" : false,
+                  "type" : "otauPossible"
+               },
+               "10" : {
+                  "type" : "lowPower",
+                  "value" : false
+               },
+               "3" : {
+                  "value" : 0,
+                  "type" : "lastIrrigationStart"
+               }
+            },
+            "lastUpdate" : 1648642654,
+            "firmware" : "",
+            "channel" : 1,
+            "deviceTypeId" : "valve",
+            "id" : "{f223afe9-f8b9-46ae-8dcc-a868e96f2d2b}"
+         },
+         "{e00cc4d9-c0fa-41c3-aa8e-7ba088dc0f77};1" : {
+            "channel" : 1,
+            "deviceTypeId" : "valve",
+            "id" : "{e00cc4d9-c0fa-41c3-aa8e-7ba088dc0f77}",
+            "firmware" : "",
+            "ipv6" : "fe80::211:7d00:30:9d3d%zmd0",
+            "stateTypes" : {
+               "5" : {
+                  "type" : "lastIrrigationDuration",
+                  "value" : 0
+               },
+               "14" : {
+                  "value" : 0,
+                  "type" : "chargingDurationDay"
+               },
+               "13" : {
+                  "value" : false,
+                  "type" : "winterMode"
+               },
+               "2" : {
+                  "value" : false,
+                  "type" : "openValve"
+               },
+               "0" : {
+                  "type" : "valveInitialClose",
+                  "value" : true
+               },
+               "8" : {
+                  "value" : 0,
+                  "type" : "solarVoltage"
+               },
+               "7" : {
+                  "value" : false,
+                  "type" : "reachable"
+               },
+               "9" : {
+                  "value" : true,
+                  "type" : "sunWithinWeek"
+               },
+               "1" : {
+                  "type" : "valveStatus",
+                  "value" : false
+               },
+               "3" : {
+                  "value" : 0,
+                  "type" : "lastIrrigationStart"
+               },
+               "10" : {
+                  "type" : "lowPower",
+                  "value" : false
+               },
+               "16" : {
+                  "type" : "chargingLess",
+                  "value" : true
+               },
+               "11" : {
+                  "type" : "otauPossible",
+                  "value" : false
+               },
+               "17" : {
+                  "value" : 0,
+                  "type" : "lastResetTime"
+               },
+               "6" : {
+                  "value" : -200,
+                  "type" : "rssi"
+               },
+               "4" : {
+                  "type" : "lastIrrigationEnd",
+                  "value" : 0
+               },
+               "18" : {
+                  "value" : -1,
+                  "type" : "lastResetType"
+               },
+               "12" : {
+                  "value" : "",
+                  "type" : "otauStatus"
+               },
+               "15" : {
+                  "type" : "charging",
+                  "value" : false
+               }
+            },
+            "lastUpdate" : 1648642654
+         },
+         "{a6563d0a-28d2-432c-800f-838496a807de};1" : {
+            "firmware" : "",
+            "stateTypes" : {
+               "1" : {
+                  "type" : "brightness",
+                  "value" : 0
+               },
+               "9" : {
+                  "value" : true,
+                  "type" : "sunWithinWeek"
+               },
+               "7" : {
+                  "type" : "reachable",
+                  "value" : false
+               },
+               "8" : {
+                  "value" : 0,
+                  "type" : "solarVoltage"
+               },
+               "0" : {
+                  "type" : "moisture",
+                  "value" : 100
+               },
+               "2" : {
+                  "type" : "temperature",
+                  "value" : 0
+               },
+               "13" : {
+                  "type" : "winterMode",
+                  "value" : false
+               },
+               "14" : {
+                  "type" : "chargingDurationDay",
+                  "value" : 0
+               },
+               "5" : {
+                  "type" : "temperatureOffset",
+                  "value" : 0
+               },
+               "15" : {
+                  "type" : "charging",
+                  "value" : false
+               },
+               "18" : {
+                  "type" : "lastResetType",
+                  "value" : -1
+               },
+               "6" : {
+                  "type" : "rssi",
+                  "value" : -200
+               },
+               "4" : {
+                  "type" : "irrigationPossible",
+                  "value" : false
+               },
+               "12" : {
+                  "type" : "otauStatus",
+                  "value" : ""
+               },
+               "17" : {
+                  "type" : "lastResetTime",
+                  "value" : 0
+               },
+               "16" : {
+                  "type" : "chargingLess",
+                  "value" : true
+               },
+               "11" : {
+                  "value" : false,
+                  "type" : "otauPossible"
+               },
+               "10" : {
+                  "value" : false,
+                  "type" : "lowPower"
+               },
+               "3" : {
+                  "value" : false,
+                  "type" : "irrigationNecessary"
+               }
+            },
+            "ipv6" : "fe80::211:7d00:30:9ff6%zmd0",
+            "lastUpdate" : 1648642654,
+            "deviceTypeId" : "moistureOutdoor",
+            "channel" : 1,
+            "id" : "{a6563d0a-28d2-432c-800f-838496a807de}"
+         },
+         "{364795e9-df24-4b35-a5ab-53598fe38a13};1" : {
+            "firmware" : "",
+            "stateTypes" : {
+               "17" : {
+                  "value" : 0,
+                  "type" : "lastResetTime"
+               },
+               "6" : {
+                  "type" : "rssi",
+                  "value" : -200
+               },
+               "18" : {
+                  "type" : "lastResetType",
+                  "value" : -1
+               },
+               "4" : {
+                  "value" : false,
+                  "type" : "irrigationPossible"
+               },
+               "12" : {
+                  "value" : "",
+                  "type" : "otauStatus"
+               },
+               "15" : {
+                  "type" : "charging",
+                  "value" : false
+               },
+               "16" : {
+                  "type" : "chargingLess",
+                  "value" : true
+               },
+               "11" : {
+                  "type" : "otauPossible",
+                  "value" : false
+               },
+               "10" : {
+                  "value" : false,
+                  "type" : "lowPower"
+               },
+               "3" : {
+                  "value" : false,
+                  "type" : "irrigationNecessary"
+               },
+               "1" : {
+                  "value" : 0,
+                  "type" : "brightness"
+               },
+               "2" : {
+                  "value" : 0,
+                  "type" : "temperature"
+               },
+               "8" : {
+                  "type" : "solarVoltage",
+                  "value" : 0
+               },
+               "0" : {
+                  "type" : "moisture",
+                  "value" : 100
+               },
+               "9" : {
+                  "value" : true,
+                  "type" : "sunWithinWeek"
+               },
+               "7" : {
+                  "value" : false,
+                  "type" : "reachable"
+               },
+               "14" : {
+                  "value" : 0,
+                  "type" : "chargingDurationDay"
+               },
+               "13" : {
+                  "value" : false,
+                  "type" : "winterMode"
+               },
+               "5" : {
+                  "value" : 0,
+                  "type" : "temperatureOffset"
+               }
+            },
+            "ipv6" : "fe80::211:7d00:30:7a7a%zmd0",
+            "lastUpdate" : 1648642654,
+            "deviceTypeId" : "moistureOutdoor",
+            "channel" : 1,
+            "id" : "{364795e9-df24-4b35-a5ab-53598fe38a13}"
+         }
+      }
+   }
+}

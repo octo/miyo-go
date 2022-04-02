@@ -1,0 +1,31 @@
+{
+   "status" : "success",
+   "id" : 0,
+   "params" : {
+      "irrigationType" : {
+         "Hose" : 3,
+         "Sprinkler" : 1,
+         "UpSprinkler" : 0,
+         "Drip" : 2
+      },
+      "locationType" : {
+         "Covered" : 1,
+         "Open" : 0,
+         "Glasshouse" : 2
+      },
+      "plantType" : {
+         "Patch" : 2,
+         "Individual" : 5,
+         "Tree" : 3,
+         "Hedge" : 1,
+         "Undefined" : 4,
+         "Gras" : 0
+      },
+      "soilType" : {
+         "LoamySandy" : 2,
+         "Unknown" : 3,
+         "Loamy" : 0,
+         "Sandy" : 1
+      }
+   }
+}
