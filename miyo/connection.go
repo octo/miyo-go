@@ -11,17 +11,11 @@ import (
 	ssdp "github.com/koron/go-ssdp"
 )
 
+// Conn represents a MIYO Cube.
+// All API methods (with the exceptin of "link"), are methods of this object.
 type Conn struct {
 	host   string
 	apiKey string
-}
-
-type ConnectOption func(c *Conn)
-
-func WithAPIKey(apiKey string) ConnectOption {
-	return func(c *Conn) {
-		c.apiKey = apiKey
-	}
 }
 
 // Connect returns an object representing a MIYO Cube.
